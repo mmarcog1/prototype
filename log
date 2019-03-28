@@ -1,0 +1,101 @@
+2019-03-28T23:21:35.366833+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.366844+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.366846+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.367698+00:00 app[web.1]: 23:21:35.366 [error] GenServer #PID<0.331.0> terminating
+2019-03-28T23:21:35.367701+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:21:35.367707+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:21:35.367709+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:21:35.367711+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:21:35.367712+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.367714+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.367715+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.367717+00:00 app[web.1]: 23:21:35.367 [error] GenServer #PID<0.332.0> terminating
+2019-03-28T23:21:35.367719+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:21:35.367720+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:21:35.367721+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:21:35.367723+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:21:35.367725+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.367726+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.367727+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.374675+00:00 app[web.1]: 23:21:35.367 [error] GenServer #PID<0.333.0> terminating
+2019-03-28T23:21:35.374678+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:21:35.374679+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:21:35.374680+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:21:35.374682+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:21:35.374683+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.374684+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.374685+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.374686+00:00 app[web.1]: 23:21:35.367 [error] GenServer #PID<0.334.0> terminating
+2019-03-28T23:21:35.374687+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:21:35.374689+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:21:35.374690+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:21:35.374691+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:21:35.374692+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.374693+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.374694+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.374695+00:00 app[web.1]: 23:21:35.368 [error] GenServer #PID<0.335.0> terminating
+2019-03-28T23:21:35.374696+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:21:35.374697+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:21:35.374699+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:21:35.374700+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:21:35.374701+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.374702+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.374703+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.374704+00:00 app[web.1]: 23:21:35.368 [error] GenServer #PID<0.336.0> terminating
+2019-03-28T23:21:35.374705+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:21:35.374706+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:21:35.374707+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:21:35.374708+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:21:35.374709+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.374711+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.374712+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.374713+00:00 app[web.1]: 23:21:35.368 [error] GenServer #PID<0.337.0> terminating
+2019-03-28T23:21:35.374714+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:21:35.374715+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:21:35.374716+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:21:35.374717+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:21:35.374726+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.374727+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.374728+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.374729+00:00 app[web.1]: 23:21:35.369 [error] GenServer #PID<0.338.0> terminating
+2019-03-28T23:21:35.374730+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:21:35.374731+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:21:35.374732+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:21:35.374741+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:21:35.374742+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.374743+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.374744+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.374745+00:00 app[web.1]: 23:21:35.369 [error] GenServer #PID<0.339.0> terminating
+2019-03-28T23:21:35.374746+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:21:35.374747+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:21:35.374748+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:21:35.374749+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:21:35.374750+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.374752+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.374753+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.374754+00:00 app[web.1]: 23:21:35.370 [error] GenServer #PID<0.340.0> terminating
+2019-03-28T23:21:35.374762+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:21:35.374763+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:21:35.374764+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:21:35.374765+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:21:35.374767+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.374768+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.374769+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.374770+00:00 app[web.1]: 23:21:35.370 [error] GenServer #PID<0.341.0> terminating
+2019-03-28T23:21:35.374771+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:21:35.374772+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:21:35.374773+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:21:35.374774+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:21:35.374775+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:21:35.374777+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:21:35.374779+00:00 app[web.1]: Last message: nil
+2019-03-28T23:21:35.375637+00:00 app[web.1]: 23:21:35.375 [info] Application prototype exited: shutdown
+2019-03-28T23:21:36.893651+00:00 app[web.1]: {"Kernel pid terminated",application_controller,"{application_terminated,prototype,shutdown}"}
+2019-03-28T23:21:36.894033+00:00 app[web.1]: Kernel pid terminated (application_controller) ({application_terminated,prototype,shutdown})
+2019-03-28T23:21:36.894443+00:00 app[web.1]: 
+2019-03-28T23:21:38.752918+00:00 app[web.1]: Crash dump is being written to: erl_crash.dump...done
+2019-03-28T23:21:38.848046+00:00 heroku[web.1]: State changed from starting to crashed
+2019-03-28T23:21:38.824049+00:00 heroku[web.1]: Process exited with status 1
+2019-03-28T23:21:47.731287+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=serene-island-91460.herokuapp.com request_id=618e9f04-5dc6-47c3-bad9-d6bd4a0a4953 fwd="185.136.116.142" dyno= connect= service= status=503 bytes= protocol=https
+2019-03-28T23:21:48.222213+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=serene-island-91460.herokuapp.com request_id=af6cf13a-5fa9-4c92-814c-f810bdabeb03 fwd="185.136.116.142" dyno= connect= service= status=503 bytes= protocol=https
+2019-03-28T23:23:13.213976+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=serene-island-91460.herokuapp.com request_id=19caa6e9-0205-48a5-9f98-70092756aa69 fwd="185.136.116.142" dyno= connect= service= status=503 bytes= protocol=https

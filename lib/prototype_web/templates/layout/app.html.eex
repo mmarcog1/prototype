@@ -9,7 +9,7 @@
   </head>
   <body>
     <h1>
-      <iframe width="1600" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiY2Y1ODA4NzAtNTViYy00ZDcxLTlhNGQtOWQ2MTRlY2QyYjc3IiwidCI6IjVhNWYyNTcxLWZmZjEtNGQ1MS04YmY1LTQ1MTNhMTI3YWNkNiIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+      <iframe width="1920" height="1080" src="https://app.powerbi.com/view?r=eyJrIjoiZGI4NzYxYmMtODY2Yy00NWQyLWJkN2ItNzUwNzdhNWUyYmQyIiwidCI6IjVhNWYyNTcxLWZmZjEtNGQ1MS04YmY1LTQ1MTNhMTI3YWNkNiIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
     </h1>
   </body>
 </html>

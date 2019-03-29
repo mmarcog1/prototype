@@ -1,0 +1,100 @@
+2019-03-28T23:35:17.773762+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:35:17.773763+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:35:17.773764+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:35:17.773766+00:00 app[web.1]: Last message: nil
+2019-03-28T23:35:17.774137+00:00 app[web.1]: 23:35:17.774 [error] GenServer #PID<0.341.0> terminating
+2019-03-28T23:35:17.774140+00:00 app[web.1]: ** (RuntimeError) connect raised KeyError exception: key :database not found. The exception details are hidden, as they may contain sensitive data such as database credentials. You may set :show_sensitive_data_on_connection_error to true when starting your connection if you wish to see all of the details
+2019-03-28T23:35:17.774141+00:00 app[web.1]: (elixir) lib/keyword.ex:371: Keyword.fetch!/2
+2019-03-28T23:35:17.774143+00:00 app[web.1]: (postgrex) lib/postgrex/protocol.ex:90: Postgrex.Protocol.connect/1
+2019-03-28T23:35:17.774145+00:00 app[web.1]: (db_connection) lib/db_connection/connection.ex:66: DBConnection.Connection.connect/2
+2019-03-28T23:35:17.774146+00:00 app[web.1]: (connection) lib/connection.ex:622: Connection.enter_connect/5
+2019-03-28T23:35:17.774147+00:00 app[web.1]: (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+2019-03-28T23:35:17.774154+00:00 app[web.1]: Last message: nil
+2019-03-28T23:35:17.777733+00:00 app[web.1]: 23:35:17.774 [info] Application prototype exited: shutdown
+2019-03-28T23:35:19.294512+00:00 app[web.1]: {"Kernel pid terminated",application_controller,"{application_terminated,prototype,shutdown}"}
+2019-03-28T23:35:19.294711+00:00 app[web.1]: Kernel pid terminated (application_controller) ({application_terminated,prototype,shutdown})
+2019-03-28T23:35:19.295007+00:00 app[web.1]: 
+2019-03-28T23:35:20.922124+00:00 app[web.1]: Crash dump is being written to: erl_crash.dump...done
+2019-03-28T23:35:21.006463+00:00 heroku[web.1]: State changed from starting to crashed
+2019-03-28T23:35:20.987309+00:00 heroku[web.1]: Process exited with status 1
+2019-03-28T23:50:02.468996+00:00 heroku[web.1]: State changed from crashed to starting
+2019-03-28T23:50:10.697367+00:00 heroku[web.1]: Starting process with command `MIX_ENV=prod elixir --sname server -S mix phx.server`
+2019-03-28T23:50:13.324287+00:00 app[web.1]: 23:50:13.324 [info] Access PrototypeWeb.Endpoint at http://localhost
+2019-03-28T23:50:13.359557+00:00 app[web.1]: You have configured application :hello in your configuration
+2019-03-28T23:50:13.359560+00:00 app[web.1]: file, but the application is not available.
+2019-03-28T23:50:13.359561+00:00 app[web.1]: 
+2019-03-28T23:50:13.359562+00:00 app[web.1]: This usually means one of:
+2019-03-28T23:50:13.359564+00:00 app[web.1]: 
+2019-03-28T23:50:13.359565+00:00 app[web.1]: 1. You have not added the application as a dependency in a mix.exs file.
+2019-03-28T23:50:13.359566+00:00 app[web.1]: 
+2019-03-28T23:50:13.359568+00:00 app[web.1]: 2. You are configuring an application that does not really exist.
+2019-03-28T23:50:13.359569+00:00 app[web.1]: 
+2019-03-28T23:50:13.359570+00:00 app[web.1]: Please ensure :hello exists or remove the configuration.
+2019-03-28T23:50:13.359573+00:00 app[web.1]: 
+2019-03-28T23:51:10.828013+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2019-03-28T23:51:10.922648+00:00 heroku[web.1]: State changed from starting to crashed
+2019-03-28T23:51:10.927351+00:00 heroku[web.1]: State changed from crashed to starting
+2019-03-28T23:51:10.803743+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2019-03-28T23:51:10.803832+00:00 heroku[web.1]: Stopping process with SIGKILL
+2019-03-28T23:51:10.904078+00:00 heroku[web.1]: Process exited with status 22
+2019-03-28T23:51:22.966869+00:00 heroku[web.1]: Starting process with command `MIX_ENV=prod elixir --sname server -S mix phx.server`
+2019-03-28T23:51:42.610343+00:00 app[web.1]: 23:51:42.609 [info] Access PrototypeWeb.Endpoint at http://localhost
+2019-03-28T23:51:43.019453+00:00 app[web.1]: You have configured application :hello in your configuration
+2019-03-28T23:51:43.019497+00:00 app[web.1]: file, but the application is not available.
+2019-03-28T23:51:43.019500+00:00 app[web.1]: 
+2019-03-28T23:51:43.019503+00:00 app[web.1]: This usually means one of:
+2019-03-28T23:51:43.019504+00:00 app[web.1]: 
+2019-03-28T23:51:43.019507+00:00 app[web.1]: 1. You have not added the application as a dependency in a mix.exs file.
+2019-03-28T23:51:43.019508+00:00 app[web.1]: 
+2019-03-28T23:51:43.019510+00:00 app[web.1]: 2. You are configuring an application that does not really exist.
+2019-03-28T23:51:43.019511+00:00 app[web.1]: 
+2019-03-28T23:51:43.019513+00:00 app[web.1]: Please ensure :hello exists or remove the configuration.
+2019-03-28T23:51:43.019514+00:00 app[web.1]: 
+2019-03-28T23:52:23.522979+00:00 heroku[web.1]: State changed from starting to crashed
+2019-03-28T23:52:23.368436+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2019-03-28T23:52:23.368553+00:00 heroku[web.1]: Stopping process with SIGKILL
+2019-03-28T23:52:23.504857+00:00 heroku[web.1]: Process exited with status 137
+2019-03-28T23:52:24.830654+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=serene-island-91460.herokuapp.com request_id=2d1ff266-8e98-4d17-9459-4455ea019969 fwd="185.136.116.142" dyno= connect= service= status=503 bytes= protocol=https
+2019-03-28T23:58:40.143368+00:00 heroku[web.1]: State changed from crashed to starting
+2019-03-28T23:58:50.649450+00:00 heroku[web.1]: Starting process with command `MIX_ENV=prod elixir --sname server -S mix phx.server`
+2019-03-28T23:58:55.508235+00:00 app[web.1]: 23:58:55.508 [info] Access PrototypeWeb.Endpoint at http://localhost
+2019-03-28T23:58:55.566945+00:00 app[web.1]: You have configured application :hello in your configuration
+2019-03-28T23:58:55.566949+00:00 app[web.1]: file, but the application is not available.
+2019-03-28T23:58:55.566951+00:00 app[web.1]: 
+2019-03-28T23:58:55.566953+00:00 app[web.1]: This usually means one of:
+2019-03-28T23:58:55.566955+00:00 app[web.1]: 
+2019-03-28T23:58:55.566957+00:00 app[web.1]: 1. You have not added the application as a dependency in a mix.exs file.
+2019-03-28T23:58:55.566958+00:00 app[web.1]: 
+2019-03-28T23:58:55.566960+00:00 app[web.1]: 2. You are configuring an application that does not really exist.
+2019-03-28T23:58:55.566962+00:00 app[web.1]: 
+2019-03-28T23:58:55.566963+00:00 app[web.1]: Please ensure :hello exists or remove the configuration.
+2019-03-28T23:58:55.566965+00:00 app[web.1]: 
+2019-03-28T23:59:51.214489+00:00 heroku[web.1]: State changed from starting to crashed
+2019-03-28T23:59:51.078475+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2019-03-28T23:59:51.078607+00:00 heroku[web.1]: Stopping process with SIGKILL
+2019-03-28T23:59:51.193207+00:00 heroku[web.1]: Process exited with status 137
+2019-03-29T00:04:45.195705+00:00 heroku[web.1]: State changed from crashed to starting
+2019-03-29T00:04:56.150825+00:00 heroku[web.1]: Starting process with command `MIX_ENV=prod elixir --sname server -S mix phx.server`
+2019-03-29T00:05:00.948845+00:00 app[web.1]: 00:05:00.946 [info] Access PrototypeWeb.Endpoint at http://localhost
+2019-03-29T00:05:01.017007+00:00 app[web.1]: You have configured application :hello in your configuration
+2019-03-29T00:05:01.017011+00:00 app[web.1]: file, but the application is not available.
+2019-03-29T00:05:01.017012+00:00 app[web.1]: 
+2019-03-29T00:05:01.017014+00:00 app[web.1]: This usually means one of:
+2019-03-29T00:05:01.017016+00:00 app[web.1]: 
+2019-03-29T00:05:01.017018+00:00 app[web.1]: 1. You have not added the application as a dependency in a mix.exs file.
+2019-03-29T00:05:01.017020+00:00 app[web.1]: 
+2019-03-29T00:05:01.017021+00:00 app[web.1]: 2. You are configuring an application that does not really exist.
+2019-03-29T00:05:01.017023+00:00 app[web.1]: 
+2019-03-29T00:05:01.017024+00:00 app[web.1]: Please ensure :hello exists or remove the configuration.
+2019-03-29T00:05:01.017026+00:00 app[web.1]: 
+2019-03-29T00:05:56.734097+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2019-03-29T00:05:56.734097+00:00 heroku[web.1]: Stopping process with SIGKILL
+2019-03-29T00:05:56.820951+00:00 heroku[web.1]: Process exited with status 137
+2019-03-29T00:05:56.836399+00:00 heroku[web.1]: State changed from starting to crashed
+2019-03-29T00:12:02.581049+00:00 heroku[run.1914]: Awaiting client
+2019-03-29T00:12:02.748222+00:00 heroku[run.1914]: State changed from starting to up
+2019-03-29T00:12:02.695433+00:00 heroku[run.1914]: Starting process with command `POOL_SIZE=2 mix ecto.migrate`
+2019-03-29T00:12:11.858496+00:00 heroku[run.1914]: State changed from up to complete
+2019-03-29T00:12:11.834871+00:00 heroku[run.1914]: Process exited with status 0
+2019-03-29T00:12:17.244861+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=serene-island-91460.herokuapp.com request_id=5ef1b03f-63dd-44ae-b1f8-d42351dc292a fwd="185.136.116.142" dyno= connect= service= status=503 bytes= protocol=https
+2019-03-29T00:12:20.885022+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=serene-island-91460.herokuapp.com request_id=9cbf8d85-227a-4930-8093-14709c272b93 fwd="185.136.116.142" dyno= connect= service= status=503 bytes= protocol=https
